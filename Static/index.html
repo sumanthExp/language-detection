@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Text Analysys</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="static/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" media="screen" href="static/css/newDesign.css">
+        <link rel="stylesheet" href="static/css/texsie.css">
+</head>
+<body>
+<nav class="navbar visible-lg visible-md ">
+
+    <div id='nav-container' class="container-lg container-fluid">
+        <ul id='nav-link' class="nav navbar-nav pull-right cl-effect-5">
+            <li><a data-link=""><span data-hover="HOME">HOME</span></a></li>
+            <li><a href="/#Language" data-link="technology"><span data-hover="Language">Language</span></a></li>
+            <li><a href="/#sentiment" data-link="solution"><span data-hover="SENTIMENT">Sentiment</span></a></li>
+        </ul>
+        <div id='nav-quote' class="col-lg-12 text-center">
+            <h1>Real Time Data Analysis <br /> </h1>
+            <hr>
+
+        </div>
+        <div id='nav-quote' class="col-lg-12 text-center">
+            <div id="line" class="col-lg-12">
+                <img width="100%" src="static/css/bootstrap/lines.gif" alt="50% " />
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container container-fluid">
+    <div id="sentiment-input" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mar-btm-25 mar-top-25 pad-0">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mar-btm-25" style="border-bottom:1px solid #f1f1f1;height:230px;">
+    <form action="." method="POST" >
+
+        <input id="ShowText" type="text" name="text" class="desc mar-top-25" placeholder="Enter the text you wish to analyze.."></>
+
+            </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <input type="submit" class="btn pull-right randomize btn-red" name="my-form" value="Analyse">
+    </div>
+
+
+    </form>
+        <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+
+        <input type="submit"  class="btn pull-left analyze-btn btn-green"   onclick="getElementById('ShowText').value=textarray[Math.floor(Math.random()*textarray.length)]" value="Random Text">
+            <script type="text/javascript">
+            var textarray = [
+            "Man request adapted spirits set pressed. Up to denoting subjects sensible feelings it indulged directly. We dwelling elegance do shutters appetite yourself diverted. Our next drew much you with rank. Tore many held age hold rose than our. She literature sentiments any contrasted. Set aware joy sense young now tears china shy. ",
+            "O Brasil é um país que sempre foi referido por outras nações por seu tamanho ou por sua população. Mas em discussões entre os cientistas, jornalistas, economistas, e experientes internacionais, este país é muitas vezes caracterizado como um país subdesenvolvido.",
+            "Hola! Yo empecé aprendo Español hace dos mes en la escuela. Yo voy la universidad. Yo tratar estudioso Español tres hora todos los días para que yo saco mejor rápido. ¿Cosa algún yo debo hacer además construir mí vocabulario? Muchas veces yo estudioso la palabras solo para que yo construir mí voabulario rápido. Yo quiero empiezo leo el periódico Español la próxima semana. Por favor correcto algún la equivocaciónes yo hisciste. Gracias!",
+            "प्रदूषण आज के समय का सबसे बड़ा अभिशाप है जो हमारे विज्ञानं की देन है। प्रदूषण के बढ़ने से हमारे धरती पे बहुत सी समस्याएं पैदा हो गई जिसे अगर समय रहते न रोक गया तो वो दिन दूर नही जब धीरे-धीरे सब खतम हो जायेगा"
+            ];
+
+            </script>
+
+
+        </div>
+            </div>
+    <br><br>
+    <h3 class="small"><b>Supported languages:</b>
+                    Albanian | Arabic | Armenian | Basque | Bengali | Bulgarian | Catalan | Chinese | Croatian | Czech | Danish | Dutch | English', u'farsi', u'finnish', u'french', u'galician', u'german', u'greek', u'hausa | Hindi | Hungarian | Icelandic', u'indonesian', u'irish', u'italian', u'japanese', u'kazakh', u'korean', u'kurdish', u'latvian  | Lithuanian | Malay | Marathi | Mongolian | Nepali | Norwegian | Persian | Polish | Portuguese | Romanian | Russian | Serbian | Slovak | Spanish | Swahili | Swedish | Tagalog | Telugu | Thai | Turkish | Ukranian | Urdu | Vietnamese | Yoruba</h3>
+                <br><br>
+
+        <style type="text/css">
+  #footer {
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+  }
+</style>
+<div id="footer">Designed by Sumanth</div>
+</div>
+</div>
+</body>
+</html>
