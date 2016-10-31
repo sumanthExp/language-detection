@@ -1,0 +1,199 @@
+
+#Senti-heading label {
+  text-shadow: 0 0 1px #30A2F8;
+  border-bottom: 5px solid #30A2F8;
+  color: #30A2F8;
+
+}
+#upload-error {
+  display: none;
+}
+.header-2-cont {
+  cursor: pointer;
+  font-size: 12pt;
+  border-bottom: 5px solid transparent;
+}
+.header-2-cont label{
+  padding-bottom: 13px;
+  cursor: pointer;
+}
+/*loader*/
+#loader {
+  display: none;
+  position:fixed;
+  top:0px;
+  right:0px;
+  width:100%;
+  height:100%;
+  background-color:#666;
+  background-size: 150px;
+  background-repeat:no-repeat;
+  background-position:center;
+  z-index:10000000;
+  opacity: 0.8;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+/*Footer*/
+#footer {
+  color: #999999 !important;
+  background: white;
+  padding: 0;
+}
+#content-footer ul li a {
+  text-decoration: none;
+  color: #999999;
+}
+#content-footer ul li a:hover {
+  font-weight: bold;
+  color: #424c5c;
+  cursor: pointer;
+}
+#menu-icon {
+  padding-top: 10px;
+}
+.message {
+font-size: 14pt;
+padding: 15px;
+text-align: center;
+}
+
+.lang-dect {
+  display: none;
+  float: right;
+  text-align: right;
+  margin-bottom: 5px;
+  height: 25px;
+  font-weight: bold;
+  width: 250px;
+  color: black;
+  font-size: 10pt;
+  margin-top: -10px;
+}
+.desc{
+    text-align: justify;
+    background-color: white;
+    border: 1px solid #999999;
+    font-size: 12pt;
+    color: #000;
+    width: 100%;
+    height: 204px;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.desc:focus {
+  border: 0;
+}
+.randomize, .analyze-btn {
+  width: 200px;
+}
+#sentiment-input, #sentiment-output {
+  background: white;
+}
+
+#divider-names label {
+  text-align: center;
+  margin-top: 15px;
+  float: left;
+  font-size: 12pt;
+}
+#sentiment-output {
+  padding: 15px 15px 0px 10px;
+}
+#sentiment-output label {
+  width: 75%;
+}
+#col-3-uiD p label {
+  font-size: 12pt;
+  font-weight: normal;
+  width: 100px;
+}
+#col-3-uiD div {
+  min-height: 50px;
+}
+.keyword {
+  padding: 25px 15px 15px 15px;
+}
+#pve span, #nve span, #neu span {
+  font-size: 12pt;
+  text-align: left;
+  cursor: pointer;
+}
+/*Keyword Identification*/
+#keyword-input {
+  background: white;
+}
+#wikifier {
+  min-height: 200px;
+  background: white;
+  font-size: 12pt;
+  margin-top: 25px;
+  padding: 15px;
+}
+.popover {
+  border-radius: 0 !important;
+  margin-top: 5px !important;
+  color: black;
+}
+.popover a {
+  cursor: default !important;
+  color: black !important;
+}
+.arrow{
+  display: none !important;
+}
+/*Summarixation*/
+#summary-output {
+  min-height: 200px;
+  background: white;
+  margin-top: 25px;
+  padding: 15px;
+  font-size: 12pt;
+}
+/*Modals*/
+.modal-content  {
+  border-radius: 0 !important;
+}
+.form-control {
+  border-radius: 0;
+}
+#close-request button {
+  margin-top: 8px;
+  width: 100%;
+  border: 0;
+  height: 30px;
+  font-size: 12pt;
+  color: white;
+}
+#sumbit-request button {
+  margin-top: 8px;
+  width: 100%;
+  border: 0;
+  height: 30px;
+  font-size: 12pt;
+  color: white;
+
+}
+
+.modal-footer {
+  padding: 15px 0 15px 0;
+}
+
+/*Upload button*/
+#upload-file {
+  height: 40px;
+  margin: 25px 0 25px 0;
+}
+label.upload-label input[type="file"] {
+    position: fixed;
+    top: -1000px;
+}
+.upload-label {
+    color: #30A2F8;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12pt;
+}
+.upload-label:hover {
+    text-shadow: rgb(48, 162, 248) 0px 0px 1px;
+}

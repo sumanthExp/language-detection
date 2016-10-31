@@ -1,0 +1,483 @@
+
+body {
+  line-height: 2;
+  background-color: #222930;
+
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden !important;
+}
+.container-lg {
+  margin: 0;
+  width: 100%;
+  padding: 0 50px 0 50px;
+}
+.bck-white {
+  background: white !important;
+}
+.btn:hover,.btn:focus {
+  color: white;
+}
+.btn-red {
+  background: #FB4545 !important;
+  color: white !important;
+}
+.btn-red:hover {
+  box-shadow: 0 0 10px #FB4545 !important;
+}
+.btn-blue {
+  background: #30A2F8 !important;
+  color: white !important;
+}
+.btn-blue:hover {
+  box-shadow: 0 0 10px #30A2F8 !important;
+}
+.bold {
+  font-weight: bold;
+}
+.btn {
+  border-radius: 0;
+}
+.pad-0{
+  padding: 0;
+}
+.pad-left-0 {
+  padding-left: 0 !important;
+}
+.pad-top-50 {
+  padding-top: 50px;
+}
+.pad-rgt-0 {
+  padding-right: 0 !important;
+}
+.hide {
+  display: none !important;
+}
+.mar-top-50 {
+  margin-top: 50px;
+}
+.mar-top-100 {
+  margin-top: 100px;
+}
+.mar-top-25 {
+  margin-top: 25px;
+}
+.mar-top-15 {
+  margin-top: 15px;}
+
+
+  @media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+}
+
+.hght-150 {
+  height: 150px;
+}
+.mar-btm-25 {
+  margin-bottom: 25px;
+}
+.mar-btm-50 {
+  margin-bottom: 50px;
+}
+.mar-btm-0{
+  margin-bottom: 0 !important;
+}
+.width100 {
+  width: 100%;
+}
+/*Navigation*/
+.navbar {
+  margin: 0;
+}
+.navbar-header {
+  padding-left: 15px;
+}
+.active-nav{
+  /*border-bottom-color: red !important;*/
+}
+.navbar-nav {
+  margin-top: 25px;
+}
+.navbar-nav>li>a {
+    overflow: hidden;
+    padding: 0px 25px;
+    color: #999999;
+    border-radius: 0;
+}
+.navbar-nav>li>a:hover {
+  background: transparent;
+  /*border-bottom: 2px solid red;*/
+}
+.navbar-nav a span {
+  position: relative;
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+  margin-bottom: 3px;
+}
+.navbar-nav>li>a>span::before {
+  position: absolute;
+  top: 100%;
+  content: attr(data-hover);
+  font-weight: 800 !important;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  border-bottom: 2px solid red;
+}
+.navbar-nav a:hover span,
+.navbar-nav a:focus span {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+.navbar-nav li a {
+  color: ghostwhite;
+  border-radius: 0;
+}
+/*.navbar-nav li a {
+  border-bottom: 2px solid transparent;
+  -webkit-transition:  .15s linear;
+  -moz-transition: .15s linear;
+  -o-transition:  .15s linear;
+  transition: .15s linear;
+}
+.navbar-nav li a:hover {
+  background: transparent !important;
+  -webkit-transform:rotateX(360deg);
+  -moz-transform:rotateX(360deg);
+  -o-transform:rotateX(360deg);
+  transform:rotateX(360deg);
+  border-bottom: 2px solid red;
+}*/
+#nav-link li a {
+  cursor: pointer;
+}
+#mobile-menu-list li a {
+  color: black;
+  border-radius: 0;
+}
+#mobile-menu-list li {
+  z-index: 10;
+}
+#nav-quote, #nav-quote-mobile {
+  color: white;
+}
+#nav-quote h1, #nav-quote-mobile h1 {
+  font-weight: bold;
+}
+#nav-container {
+  /*width: 1000px;
+  height: 700px;*/
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+#nav-quote {
+  padding: 0;
+}
+#menu-icon{
+  padding-top: 20px;
+}
+#nav-quote-mobile {
+  /*margin-top: 100px;*/
+}
+#nav-quote-mobile h3 {
+  font-size: 14pt !important;
+}
+#nav-quote-mobile button {
+  margin-bottom: 50px;
+}
+
+/*Main container*/
+/*Technology*/
+#main-container {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+#technology {
+
+}
+#solution {
+  background: #f2f2f2;
+  padding: 0;
+  margin-top: -90px;
+}
+#team {
+  background: #f2f2f2;
+}
+#SocGa-Des, #KYC-Des {
+  min-height: 150px;
+}
+#tech-h1-D {
+  margin-bottom: 40px;
+  width: 150px;
+  border-bottom: 5px solid #06ba7e;
+  font-weight: bold;
+  color: #424c5c;
+  font-size: 50pt;
+}
+#tech-h1-M {
+  margin-bottom: 40px;
+  width: 100px;
+  border-bottom: 5px solid #06ba7e;
+  font-weight: bold;
+  color: #424c5c;
+}
+#tech-list h5 {
+  font-size: 12pt;
+}
+#tech-list p {
+  font-size: 10pt;
+}
+#sol-h1-D {
+  font-weight: bold;
+  color: #424c5c;
+  font-size: 50pt;
+}
+#sol-h1-M {
+  font-weight: bold;
+  color: #424c5c;
+}
+.grey {
+  color: #424c5c !important;
+}
+.sol-active {
+  color: #666666;
+}
+.sol-not {
+  color: #999999;
+}
+.
+.font14pt {
+  font-size: 14pt;
+}
+.font12pt {
+  font-size: 12pt;
+}
+.font50pt {
+  font-size: 50pt;
+}
+.light-grey {
+  color: #999999 !important;
+}
+#tech-p {
+  color: #7d7d7d;
+  font-size: 12pt;
+}
+
+/*Solution*/
+.pointer {
+  cursor: pointer !important;
+}
+
+#tech-image img {
+  width: 100%;
+}
+
+/*Industry verticals*/
+#IV-h1-D {
+  font-size: 50pt;
+  color: #424c5c;
+}
+blockquote {
+  border-left: 0 !important;
+}
+.testimonial p {
+  font-weight: lighter;
+  height: 250px;
+  font-size: 12pt;
+  color: #999999;
+}
+.team-pic {
+  width: 250px;
+  padding: 0;
+  float: right;
+}
+.team-pic-mobile {
+  /*width: 300px;*/
+  padding: 0;
+  float: right;
+}
+.team-pic .linkedin img {
+  width: 50px;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  padding: 5px;
+}
+
+.team-pic-mobile .linkedin img {
+  width: 50px;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  padding: 5px;
+}
+
+.team-pic-mobile .after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #FFF;
+  background: rgba(0, 0, 0, .6);
+  cursor: pointer;
+}
+
+.team-pic .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #FFF;
+    background: rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+
+.team-slider {
+
+}
+#team-name1, #team-name2, #team-name3 {
+  background: #999999;
+  height: 50px;
+  width: 500px;
+}
+
+.dis-team {
+  padding: 10px 0 10px 0;
+}
+.dis-team-mobile {
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+/*Footer*/
+ul {
+  list-style-type: none;
+}
+#footer {
+  color: #999999 !important;
+  height: 200px;
+}
+#content-footer ul li a {
+  text-decoration: none;
+  color: #999999;
+}
+#content-footer ul li a:hover {
+  font-weight: bold;
+  color: #424c5c;
+  cursor: pointer;
+}
+.address p {
+  margin-bottom: 0;
+}
+.content-line {
+  margin-top: -25px;
+  display: none;
+}
+
+/*Mobile Navigation*/
+#nav-container-mobile {
+  /*background-image: url('/static/website/img/newDesign/banner.png');*/
+  
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/*Modal*/
+.modal-content  {
+  border-radius: 0 !important;
+}
+.form-control {
+  border-radius: 0;
+}
+#close-request button {
+  margin-top: 8px;
+  width: 100%;
+  border: 0;
+  height: 30px;
+  font-size: 12pt;
+  color: white;
+}
+#sumbit-request button {
+  margin-top: 8px;
+  width: 100%;
+  border: 0;
+  height: 30px;
+  font-size: 12pt;
+  color: white;
+
+}
+
+.modal-footer {
+  padding: 15px 0 15px 0;
+}
+
+
+#nav-back {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+#nav-container {
+ /*position: absolute;*/
+ top: 0px;
+ left: 0;
+ width: 100%;
+ padding: 0;
+}
+
+
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #technology {
+      height: 850px;
+    }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+    #technology {
+      height: 850px;
+    }
+}
+
+/*Ipads*/
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape) {
+    #tech-list {
+      height: 500px;
+    }
+    #tech-list h5, #tech-list p {
+      font-size: 10pt
+    }
+  }
